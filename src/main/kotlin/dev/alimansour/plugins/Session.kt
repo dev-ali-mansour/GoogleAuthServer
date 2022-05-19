@@ -15,7 +15,7 @@ fun Application.configureSession() {
             name = "USER_SESSION",
             storage = directorySessionStorage(File(".sessions"))
         ) {
-            cookie.secure = true
+            //cookie.secure = true
             transform(SessionTransportTransformerEncrypt(secretEncryptKey, secretAuthKey))
         }
     }
