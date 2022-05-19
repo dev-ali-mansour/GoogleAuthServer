@@ -1,6 +1,7 @@
 package dev.alimansour.plugins
 
 import dev.alimansour.routes.rootRoute
+import dev.alimansour.routes.unauthorizedRoute
 import io.ktor.server.routing.*
 import io.ktor.http.*
 import io.ktor.server.application.*
@@ -11,6 +12,7 @@ fun Application.configureRouting() {
 
     routing {
         rootRoute()
+        unauthorizedRoute()
 
     }
 }
