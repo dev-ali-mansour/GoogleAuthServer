@@ -1,6 +1,6 @@
 package dev.alimansour.plugins
 
-import dev.alimansour.model.UserSession
+import dev.alimansour.domain.model.UserSession
 import io.ktor.server.application.*
 import io.ktor.server.sessions.*
 import io.ktor.util.*

@@ -1,4 +1,4 @@
-package dev.alimansour.model
+package dev.alimansour.domain.model
 
 sealed class EndPoint(val path: String) {
     object Root : EndPoint(path = "/")

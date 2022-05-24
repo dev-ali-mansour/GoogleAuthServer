@@ -1,7 +1,7 @@
 package dev.alimansour.plugins
 
-import dev.alimansour.model.EndPoint
-import dev.alimansour.model.UserSession
+import dev.alimansour.domain.model.EndPoint
+import dev.alimansour.domain.model.UserSession
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 import io.ktor.server.response.*

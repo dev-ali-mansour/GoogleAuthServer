@@ -1,7 +1,7 @@
 package dev.alimansour.routes
 
-import dev.alimansour.model.ApiResponse
-import dev.alimansour.model.EndPoint
+import dev.alimansour.domain.model.ApiResponse
+import dev.alimansour.domain.model.EndPoint
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*

@@ -1,4 +1,4 @@
-package dev.alimansour.model
+package dev.alimansour.domain.model
 
 import kotlinx.serialization.Serializable
 

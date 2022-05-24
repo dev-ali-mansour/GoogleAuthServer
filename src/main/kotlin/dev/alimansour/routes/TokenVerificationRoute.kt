@@ -4,9 +4,9 @@ import com.google.api.client.googleapis.auth.oauth2.GoogleIdToken
 import com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier
 import com.google.api.client.http.javanet.NetHttpTransport
 import com.google.api.client.json.gson.GsonFactory
-import dev.alimansour.model.ApiRequest
-import dev.alimansour.model.EndPoint
-import dev.alimansour.model.UserSession
+import dev.alimansour.domain.model.ApiRequest
+import dev.alimansour.domain.model.EndPoint
+import dev.alimansour.domain.model.UserSession
 import dev.alimansour.util.Constants.AUDIENCE
 import dev.alimansour.util.Constants.ISSUER
 import io.ktor.server.application.*
