@@ -16,6 +16,7 @@ fun Application.configureRouting() {
         getUserInfoRoute(application, userRepository)
         updateUserInfoRoute(application, userRepository)
         deleteUserInfoRoute(application, userRepository)
+        signOutRoute()
         authorizedRoute()
         unauthorizedRoute()
     }
