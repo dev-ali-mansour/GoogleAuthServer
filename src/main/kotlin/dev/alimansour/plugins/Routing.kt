@@ -14,6 +14,7 @@ fun Application.configureRouting() {
         rootRoute()
         tokenVerificationRoute(application, userRepository)
         getUserInfoRoute(application, userRepository)
+        updateUserInfoRoute(application, userRepository)
         authorizedRoute()
         unauthorizedRoute()
     }
